@@ -1,0 +1,12 @@
+__pycache__/
+*.pyc
+
+# vendor firmware, flash utilities and prepared sticks must never be committed
+*.zip
+*.bin
+*.rom
+*.efi
+*.exe
+*.sys
+usb/
+out/
