@@ -1,6 +1,6 @@
-# ami-bios-usb-tools
+# fevm-faex1-bios-flash
 
-Two small stdlib-only Python tools for AMI Aptio BIOS updates on x86 boards:
+Two small stdlib-only Python tools for AMI Aptio BIOS updates on x86 boards, written while bringing a **FEVM FAEX1** (FEVM/Aimax box, AMD Ryzen AI Max+ 395 "Strix Halo") to BIOS 1.06 / EC 1.29. They work on any Aptio IV+ image, but every example and every caveat here comes from that machine:
 
 * **`agesa_scan.py`** - read the AGESA version out of a BIOS image or a vendor
   update package. Plain `grep AGESA image.bin` does not work: on current AMD
