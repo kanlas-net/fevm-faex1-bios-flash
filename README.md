@@ -22,6 +22,11 @@ reboots.
 No vendor binaries live in this repository. You bring your own update package;
 the tools only repack what you already downloaded.
 
+**Working on this as an agent?** Start at [AGENTS.md](AGENTS.md) - the end-to-end
+runbook: where to get the newest firmware from the vendor (JSON API + direct
+Drive download), what to verify before touching a machine, how to build the
+stick, how to flash, how to report. `AGENT.md` is a pointer to the same file.
+
 ## Requirements
 
 * Python 3.8+, no third-party modules.
